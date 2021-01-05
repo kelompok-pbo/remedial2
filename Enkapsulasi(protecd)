@@ -1,0 +1,21 @@
+<?PHP
+
+//class kendaraan
+Class kendaraan {
+      //menentukan property dengan protected
+      protected $honda br-v
+
+      //method protected
+      Protected function Honda br-v(){
+           retrun"Honda saya".$this->Honda;
+       }
+     
+       public function tampilkan_honda br-v(){
+            retrun $this->tampilkan_honda br-v;
+       }
+}
+//instansiasi class kendaraan
+$manusia = new kendaraan();
+
+//memanggil method public tampilkan_honda br-v dari class kendaraan
+echo $kendaraan->tampilkan_honda br-v();
