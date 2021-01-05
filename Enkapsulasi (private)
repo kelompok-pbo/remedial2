@@ -1,0 +1,19 @@
+<?PHP
+
+//class kendaraan
+class kendaraan {
+      //menentukan property dengan private";
+      private $honda
+
+      //method public
+       public function tampilan_honda br-v(){
+           retrun"mobil saya".$this->Honda br-v;
+       }
+
+
+}
+//instansiasi class kendaraan
+$kendaraan = new kendaraan ();
+
+//memanggil method public tampilkan_honda br-v dari class kendaraan
+echo $kendaraan->tampilkan_honda br-v();
