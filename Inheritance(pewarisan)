@@ -1,0 +1,37 @@
+<?php
+
+//class parent
+class kendaraan {
+
+      //Property class kendaraan
+      public $honda br-v saya;
+
+      //met pada class kendaraan
+      function berikendaraan($saya)
+          $this->honda br-v_saya=$saya;
+     }
+}
+//class turunan atau sub class dari class kendaraan
+//Kita menghubungkan class dengan syntax extended
+class motor extended kendaraan {
+
+        //Property class motor
+        Public $honda br-v_motor;
+
+        //Method pada class motor
+        function berikendaraan oleh($motor){
+            $this->Honda br-v_motor=$motor;
+        }
+}
+//instansiasi class motor
+$malasngoloding = New motor;
+
+//method berikendaraan motor beat pada class kendaraan
+$malasngoloding->berikendaraan ("pulung kidung");
+$malasngoloding->bermotor ("Santi");
+
+//menampilkan isi property
+echo "Honda br-v.$malasngoloding->Honda br-v saya. "<br/>;
+echo "Honda saya: ".$malasngolofing->motor beat;
+
+?>
