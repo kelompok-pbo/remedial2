@@ -1,0 +1,18 @@
+<?PHP
+
+//class kendaraan
+class kendaraan
+      //Prop
+      public $mobil;
+      public $merah;
+
+      //method kendaraan
+      function tampilan_honda br-v(){
+          retrun"Honda br-v<br/>":
+      }
+}
+//instansiasi class kendaraan
+$kendaraan = new kendaraan ();
+
+//memanggil method tampilan_honda br-v dari kendaraan
+echo $kendaraan->tampilan_honda br-v();
