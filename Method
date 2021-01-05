@@ -1,0 +1,19 @@
+<?
+//cara penulisan class dan property OOP PHP
+class mobil{
+      //property OOP
+      var $merah;
+      var $honda br-v;
+      var $108;
+
+      //method OOP
+      function maju(){
+      //mobil saya maju
+}
+     function berhenti(){
+        //mobil saya berhenti
+   }
+
+}
+
+?>
