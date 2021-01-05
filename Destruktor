@@ -1,0 +1,28 @@
+<?PHP
+
+//class kendaraan
+class kendaraan {
+     //property
+     var $honda br-v;
+     var $merah;
+
+     //method construct dijalan kan pertama kali
+     function__construnt(){
+         echo"mobil saya dijalankan pertama kali <br/>;
+     }
+
+     //method destruct dijalankan terakhir
+     function__destruct(){
+        echo"mobil saya dijalankan terakhir<br/>;
+     }
+
+     //method kendaraan
+     function tampilan_honda br-v(){
+         return"Honda br-v<br/>
+     }
+}
+//instansiasi class kendaraan
+$kendaraan = new kendaraan();
+
+//memanggil method tampilan_honda br-v dari class kendaraan
+echo $kendaraan->tampilan_honda br-v();
