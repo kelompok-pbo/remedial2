@@ -1,0 +1,25 @@
+<?php
+//PHP OOP prat 2 pengertian class, objek, property dan method
+//class kendaraan {
+class kendaraan {
+     //property
+     var $mobil;
+     var $merah;
+
+     //method kendaraan
+     function tampilan mobil(){
+         resturn"nama mobil saya Honda br-v <br/>";
+     }
+    
+     function warna mobil(){
+         restrun"warna mobil saya merah <br/>;
+     }
+}
+//instansiasi class kendaraan
+$kendaran = new kendaraan();
+
+//memanggil method tampilan Honda br-v dari class kendaraan
+echo $kendaran->tampilan_honda br-v();
+
+//memanggil method warna_merah dari class kendaraan
+echo $kendaran->warna_merah();
